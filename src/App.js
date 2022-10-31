@@ -1,23 +1,14 @@
-import logo from './assets/CA.svg';
+import Dropdown from './components/Dropdown.js';
+import { steps } from './data/steps';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='main'>
+      {steps.map(({ title, subtitle, description }, index) => (
+        <Dropdown key={index} index={index + 1} title={title} subtitle={subtitle} description={description}></Dropdown>
+      ))}
+    </main>
+
   );
 }
 
