@@ -2,7 +2,9 @@ function Article({ title, img, description, date, tag, index }) {
     return (
         <article className="article">
             {img ? (
-                <img className="article__img" src={img}></img>
+                <div className="article__img">
+                    <img src={img}></img>
+                </div>
             ) : null}
             <h4 className="article__title">{title}</h4>
             {index !== 0 ? (
