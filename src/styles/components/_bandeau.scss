@@ -4,9 +4,12 @@
     .bandeau {
         display: flex;
         justify-content: space-between;
-        animation: scrollPart 20s linear infinite;
+        animation: scrollPart 25s linear infinite;
         & > * {
             margin-left: 6rem;
+            @media screen and (max-width : 768px) {
+                margin-left: 3em;
+            }
         }
     }
 }

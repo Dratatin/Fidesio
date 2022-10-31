@@ -278,11 +278,16 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-animation: scrollPart 20s linear infinite;
-          animation: scrollPart 20s linear infinite;
+  -webkit-animation: scrollPart 25s linear infinite;
+          animation: scrollPart 25s linear infinite;
 }
 .bandeau-ctn .bandeau > * {
   margin-left: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .bandeau-ctn .bandeau > * {
+    margin-left: 3em;
+  }
 }
 
 @-webkit-keyframes scrollPart {
