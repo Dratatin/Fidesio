@@ -1,0 +1,16 @@
+.articles {
+    &__heading {
+        display: flex;
+        color: #237FBD;
+        margin-bottom: 3rem;
+        &__title {
+            margin-left: 1rem;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    &__content {
+        display: flex;
+        gap: 3rem;
+    }
+}

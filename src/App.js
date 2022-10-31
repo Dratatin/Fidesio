@@ -1,7 +1,9 @@
 import Dropdown from './components/Dropdown.js';
 import Partenaires from './components/Bandeau.js';
+import Articles from './components/Articles.js';
 import { steps } from './data/steps';
 import { partenaires } from './data/partenaires';
+import { articles } from './data/articles';
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
         ))}
       </section>
       <Partenaires items={partenaires}></Partenaires>
+      <Articles items={articles}></Articles>
     </main>
-
   );
 }
 
