@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Fidesio/static/css/main.33e66dc2.css",
+    "main.js": "/Fidesio/static/js/main.c9adf155.js",
+    "static/media/firstArticle.png": "/Fidesio/static/media/firstArticle.3ea6e85e2f9fbeb138bb.png",
+    "static/media/allianz.svg": "/Fidesio/static/media/allianz.f5c0934bc1694c8389824b223a13bbe9.svg",
+    "static/media/arcelor.svg": "/Fidesio/static/media/arcelor.8fb182a2a8e8017002fc79f289c4d1bb.svg",
+    "static/media/CA.svg": "/Fidesio/static/media/CA.e820e7720eb8f388de4308e41da334f9.svg",
+    "static/media/articlesIcon.svg": "/Fidesio/static/media/articlesIcon.cbf13ff01520545ecb3dfa70ade91f3b.svg",
+    "static/media/button.svg": "/Fidesio/static/media/button.d1481d079eaa68c417254d49686136f7.svg",
+    "static/media/icon.svg": "/Fidesio/static/media/icon.d590cd8b02ca36516fb5e1ef46441ed0.svg",
+    "static/media/iconOrange.svg": "/Fidesio/static/media/iconOrange.dc4143576e3f2efa010b9ffc019aa4a3.svg",
+    "index.html": "/Fidesio/index.html",
+    "main.33e66dc2.css.map": "/Fidesio/static/css/main.33e66dc2.css.map",
+    "main.c9adf155.js.map": "/Fidesio/static/js/main.c9adf155.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33e66dc2.css",
+    "static/js/main.c9adf155.js"
+  ]
+}
