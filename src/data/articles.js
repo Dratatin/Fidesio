@@ -1,5 +1,5 @@
 import firstArticle from '../assets/firstArticle.png';
-import lastArticle from '../assets/lastArticle.png';
+import lastArticle from '../assets/lastArticle.svg';
 
 export const articles = [
     {

@@ -1,7 +1,5 @@
-import { useState, useEffect, Fragment } from "react";
+import { useState, useEffect } from "react";
 import button from '../assets/button.svg';
-import icon from '../assets/icon.svg';
-import iconOrange from '../assets/iconOrange.svg';
 
 function Dropdown({ title, subtitle, description, index }) {
     const [isExpended, setIsExpended] = useState(false);
@@ -21,12 +19,6 @@ function Dropdown({ title, subtitle, description, index }) {
                     <h2 className="dropdown__content__title">{title}</h2>
                     <p className="dropdown__content__subtitle">{subtitle}</p>
                     <p className="dropdown__content__description">{description}</p>
-                    {index > 2 ? (
-                        <img className="dropdown__content__icon" src={iconOrange}></img>
-                    ) : (
-                        <img className="dropdown__content__icon" src={icon}></img>
-                    )
-                    }
                     <img onClick={toogleExpand} className="dropdown__content__button" src={button}></img>
                 </div>
             )
