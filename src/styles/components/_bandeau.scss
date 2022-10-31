@@ -1,5 +1,22 @@
-.bandeau {
+.bandeau-ctn {
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    .bandeau {
+        display: flex;
+        justify-content: space-between;
+        animation: scrollPart 20s linear infinite;
+        & > * {
+            margin-left: 6rem;
+        }
+    }
+}
+
+@keyframes scrollPart {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(-100%, 0);
+    }
+    
 }

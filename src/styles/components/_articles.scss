@@ -1,4 +1,5 @@
 .articles {
+    margin-top: 1rem;
     &__heading {
         display: flex;
         color: #237FBD;
@@ -11,6 +12,7 @@
     }
     &__content {
         display: flex;
+        flex-wrap: wrap;
         gap: 3rem;
     }
 }
