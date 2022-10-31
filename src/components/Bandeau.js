@@ -15,6 +15,13 @@ function Bandeau({ items }) {
                     </div>
                 ))}
             </div>
+            <div className="bandeau bandeau--duplicate">
+                {items.map((item, index) => (
+                    <div key={index} className="paternaire">
+                        <img src={item}></img>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

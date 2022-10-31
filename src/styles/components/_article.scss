@@ -10,9 +10,17 @@
     }
     &:nth-child(1) {
         flex: 2;
+        animation: onload 1s ease-in-out both;
         .article__title {
             font-size: 27px;
         }
+    }
+    &:nth-child(2) {
+        animation: onload 1s ease-in-out 0.5s both;
+
+    }
+    &:nth-child(3) {
+        animation: onload 1s ease-in-out 1s both;
     }
     &__title {
         font-weight: 500;
@@ -71,5 +79,18 @@
             font-size: 13px;
             font-weight: 300;
         }
+    }
+}
+
+
+
+@keyframes onload {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }

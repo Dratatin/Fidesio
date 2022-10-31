@@ -14,7 +14,6 @@ function Dropdown({ title, subtitle, description, index }) {
             setIsExpended(true)
         }
     }, [])
-
     return (
         <div className={`${isExpended ? "dropdown--open" : null} dropdown`}>
             {isExpended ? (
@@ -22,7 +21,7 @@ function Dropdown({ title, subtitle, description, index }) {
                     <h2 className="dropdown__content__title">{title}</h2>
                     <p className="dropdown__content__subtitle">{subtitle}</p>
                     <p className="dropdown__content__description">{description}</p>
-                    {index > 1 ? (
+                    {index > 2 ? (
                         <img className="dropdown__content__icon" src={iconOrange}></img>
                     ) : (
                         <img className="dropdown__content__icon" src={icon}></img>

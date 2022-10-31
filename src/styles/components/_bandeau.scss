@@ -10,6 +10,9 @@
             @media screen and (max-width : 768px) {
                 margin-left: 3em;
             }
+            @media screen and (min-width : 1600px) {
+                margin-left: 9em;
+            }
         }
     }
 }
@@ -21,5 +24,4 @@
     to{
         transform: translate(-100%, 0);
     }
-    
 }

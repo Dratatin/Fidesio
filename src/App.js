@@ -1,4 +1,4 @@
-import Dropdown from './components/Dropdown.js';
+import Dropdowns from './components/Dropdowns.js';
 import Bandeau from './components/Bandeau.js';
 import Articles from './components/Articles.js';
 import { steps } from './data/steps';
@@ -8,11 +8,7 @@ import { articles } from './data/articles';
 function App() {
   return (
     <main className='main'>
-      <section>
-        {steps.map(({ title, subtitle, description }, index) => (
-          <Dropdown key={index} index={index + 1} title={title} subtitle={subtitle} description={description}></Dropdown>
-        ))}
-      </section>
+      <Dropdowns items={steps}></Dropdowns>
       <Bandeau items={partenaires}></Bandeau>
       <Articles items={articles}></Articles>
     </main>
